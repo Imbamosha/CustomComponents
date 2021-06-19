@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="kou-e8-X4W">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="CustomComponents" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ad6-2O-dCN">
+                                <rect key="frame" x="106" y="198" width="189" height="90"/>
+                                <color key="backgroundColor" red="0.45800000000000002" green="0.80000000000000004" blue="0.94499999999999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="90" id="rdx-76-feq"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="20"/>
+                                <state key="normal" title="Tab Bar">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <integer key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="goToTabBarPromo:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5XQ-is-Okv"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ca4-V5-KwI">
+                                <rect key="frame" x="106" y="338" width="189" height="90"/>
+                                <color key="backgroundColor" red="0.45800000000000002" green="0.80000000000000004" blue="0.94499999999999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="90" id="hkg-4z-5YC"/>
+                                    <constraint firstAttribute="width" constant="189" id="tMN-vj-jUI"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="20"/>
+                                <color key="tintColor" red="0.45800000000000002" green="0.80000000000000004" blue="0.94499999999999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="Компоненты">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <integer key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="goToComponents:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Wv7-Cl-mWH"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sZ1-Jy-rhe">
+                                <rect key="frame" x="106" y="478" width="189" height="90"/>
+                                <color key="backgroundColor" red="0.45800000000000002" green="0.80000000000000004" blue="0.94499999999999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="189" id="8MA-k2-V18"/>
+                                    <constraint firstAttribute="height" constant="90" id="DgT-MF-dur"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                                <state key="normal" title="TilesCollection">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <integer key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="goToTilesCollection:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Rar-DU-qtx"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wbE-lE-GTb">
+                                <rect key="frame" x="106" y="617" width="189" height="90"/>
+                                <color key="backgroundColor" red="0.45800000000000002" green="0.80000000000000004" blue="0.94499999999999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="90" id="bsR-Yc-0Jq"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
+                                <state key="normal" title="Memory Card Game">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <integer key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="goToMemoryCardGame:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ixQ-Mx-ov4"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" red="0.83899999999999997" green="0.93700000000000006" blue="0.96399999999999997" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="wbE-lE-GTb" firstAttribute="top" secondItem="sZ1-Jy-rhe" secondAttribute="bottom" constant="49" id="Cuw-Ap-3qp"/>
+                            <constraint firstItem="ca4-V5-KwI" firstAttribute="top" secondItem="ad6-2O-dCN" secondAttribute="bottom" constant="50" id="FaO-gD-fgq"/>
+                            <constraint firstItem="wbE-lE-GTb" firstAttribute="trailing" secondItem="sZ1-Jy-rhe" secondAttribute="trailing" id="Jq3-AC-hrr"/>
+                            <constraint firstItem="ad6-2O-dCN" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="110" id="QeU-a9-EKn"/>
+                            <constraint firstItem="ad6-2O-dCN" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.456522" id="Xzv-Kq-bod"/>
+                            <constraint firstItem="sZ1-Jy-rhe" firstAttribute="leading" secondItem="ca4-V5-KwI" secondAttribute="leading" id="YtN-tH-UpW"/>
+                            <constraint firstItem="sZ1-Jy-rhe" firstAttribute="top" secondItem="ca4-V5-KwI" secondAttribute="bottom" constant="50" id="all-oD-ZqE"/>
+                            <constraint firstItem="ad6-2O-dCN" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" constant="-6.5" id="d2R-71-UB2"/>
+                            <constraint firstItem="wbE-lE-GTb" firstAttribute="leading" secondItem="sZ1-Jy-rhe" secondAttribute="leading" id="rxZ-Es-oE1"/>
+                            <constraint firstItem="ca4-V5-KwI" firstAttribute="leading" secondItem="ad6-2O-dCN" secondAttribute="leading" id="ygm-tU-tVz"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="bag-3h-noY">
+                        <barButtonItem key="backBarButtonItem" title="Назад" id="LKm-bH-ByK"/>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="componentsButton" destination="ca4-V5-KwI" id="AwN-Zf-ma0"/>
+                        <outlet property="tabBarPromoButton" destination="ad6-2O-dCN" id="3v2-gG-SlF"/>
+                        <outlet property="tilesCollectionButton" destination="sZ1-Jy-rhe" id="bin-6Z-XbC"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="928.98550724637687" y="93.75"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="3LM-dW-wuY">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="kou-e8-X4W" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="BHb-Pc-b9p">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="Tef-u5-xmu"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hD5-3e-BjH" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="18.840579710144929" y="93.75"/>
+        </scene>
+    </scenes>
+</document>
